@@ -1,0 +1,134 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo */
+  body {
+    background-color: #1a1a1a; /* Preto suave */
+    color: #e0e0e0; /* Cinza claro para texto */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: #8e44ad; /* Roxo destaque */
+    color: #ffffff; /* Texto branco */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #ffffff; /* Links brancos */
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    color: #af7ac5; /* Roxo claro no hover */
+  }
+  
+  /* Seções */
+  main section {
+    background: #2e2e2e; /* Preto mais claro para contraste */
+    color: #e0e0e0; /* Texto cinza claro */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra leve */
+  }
+  
+  /* Formulário */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Destaque no texto */
+    color: #af7ac5; /* Roxo claro para labels */
+  }
+  
+  form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6c3483; /* Borda roxa escura */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #1a1a1a; /* Fundo preto para inputs */
+    color: #e0e0e0; /* Texto claro */
+  }
+  
+  form input::placeholder, form textarea::placeholder {
+    color: #af7ac5; /* Placeholder roxo claro */
+  }
+  
+  form button {
+    background: #6c3483; /* Roxo escuro */
+    color: #ffffff; /* Texto branco */
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  form button:hover {
+    background: #8e44ad; /* Roxo destaque no hover */
+  }
+  
+  /* Links */
+  a {
+    color: #8e44ad; /* Roxo destaque */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #af7ac5; /* Roxo claro no hover */
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #8e44ad; /* Roxo destaque */
+    color: #ffffff; /* Texto branco */
+    margin-top: 20px;
+  }
+
+  .minha-imagem {
+    /* Tamanho */
+    width: 300px; /* Define a largura */
+    height: auto; /* Mantém a proporção original */
+    
+    /* Borda */
+    border: 5px solid #333; /* Cor e espessura */
+    border-radius: 15px; /* Cantos arredondados */
+    
+    /* Alinhamento */
+    display: block; /* Garante que ela se comporte como um bloco */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    
+    /* Sombra */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra ao redor */
+    
+    /* Efeito ao passar o mouse */
+    transition: transform 0.3s ease;
+}
+
+.minha-imagem:hover {
+    transform: scale(1.1); /* Amplia a imagem ao passar o mouse */
+}
